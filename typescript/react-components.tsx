@@ -28,7 +28,8 @@ export const ButtonDestruct = ({ className }: { className: string }) => {
   return <button className={className}></button>;
 };
 
-// Function component
+// Function component returning a value that is not assignable to FC
+/* @ts-expect-error */
 export const ButtonFC: React.FC<TypeProps> = (props: TypeProps) => {
   return {
     ohDear: "123",
