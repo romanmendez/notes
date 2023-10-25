@@ -7,7 +7,7 @@ import React, {
   useReducer,
   Reducer,
 } from "react";
-import { Expect, Equal } from "../utils/types-utils";
+import { Expect, Equal } from "../../utils/types-utils";
 
 // useState typing
 type Tag = {
